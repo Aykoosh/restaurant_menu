@@ -1,0 +1,118 @@
+.mmain {
+    width: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    /* background-size: cover;   */
+    height: 100%;
+}   
+.icons a{
+    text-decoration: none;
+    color: #a11818;
+}
+.icons ion-icon{
+    color: #2c19d4;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+.circle {
+    position: relative;
+    padding: 20px;
+    background-color: #ffffffb9;
+    /* border: 2px solid #007BFF; Circle border color */
+    border-radius: 20%; /* Make it circular */
+    text-align: center;
+    margin: 10px;
+    /* transition: background-color 0.3s; */
+}
+
+
+
+
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 50px;
+    margin-top: 5px
+}
+
+.background-section {
+    background-image: url('../image/img1.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    height: 600px; /* Adjust height based on your needs */
+    position: relative; /* Allows for more control over elements inside */
+}
+
+/* Optional: Styling for the heading */
+.background-section h2 {
+    position: absolute; /* Ensures the text stays visible over the background */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text within the div */
+    color: white; /* Makes the text stand out (optional, depending on image) */
+}
+
+
+    /* Styling for table */
+    table {
+        width: 100%;
+        /* margin-top: 20px; */
+        border-collapse: collapse;
+       
+    }
+    
+    th, td {
+        padding: 15px;
+        text-align: left;
+      
+    }
+    tr:hover {
+        background-color: rgba(0, 0, 0, 0.2); /* Adjust color and transparency (20%) */
+        cursor: pointer;
+    }
+    
+
+    /* Image styling */
+    img {
+        max-width: 200px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    /* Hover effect */
+    tr:hover td {
+     
+            background-color: rgba(247, 246, 246, 0.616); /* Adjust color and transparency (20%) */
+           
+        
+    }
+
+    /* Additional styling */
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+
+    h2 {
+        margin-top: 40px;
+        color: #333;
+        text-align: center;
+    }
+
+    
+    
+
+
+    

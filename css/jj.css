@@ -1,0 +1,183 @@
+.content {
+    margin-top: 10px;
+    z-index: 20;
+    padding: 50px;
+    
+    background-image: url('img1.jpg'); 
+    /* background-size: cover; 
+    background-position: center;  */
+    /* background-color: #  ; */
+}
+
+.box1 {
+    background-color: rgba( 93,126,126,  0.8); 
+    padding: 20px;
+    margin-top: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /*  display: inline -block; */
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    margin-top: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* display: inline-block; */
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.item {
+    flex: 1 1 calc(33.33% - 20px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.item img {
+    max-width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.item:hover {
+    transform: scale(1.05); 
+}
+
+h2 {
+    
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-family: 'Segoe Script', cursive; /* Change to any desired font */
+font-size: 30px; /* Adjust font size */
+color: #f8520f; /* Change the font color */
+text-align: center; /* Center the text */
+text-transform: uppercase; /* Make the text uppercase */
+letter-spacing: 2px; /* Add spacing between letters */
+font-weight: bold; /* Make the text bold */
+margin-top: 8px; /* Adjust the margin at the top */
+margin-bottom: 15px;
+padding: 10px ; 
+
+background-color: #f0f0f0; /* Add a background color */
+border-radius: 10px; /* Slight rounding of the corners */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+width: 100%; /* Full width for the header */
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.navbar {  
+    background-color: #5d6d7e;  
+}  
+
+.navbar-brand {  
+    font-size: 1.5rem;  
+    color: #ffffff;  
+}  
+
+.navbar-nav .nav-link {  
+    color: #ffffff;  
+    padding: 15px 20px;  
+    transition: background-color 0.3s;  
+}  
+
+.navbar-nav .nav-link:hover {  
+    background-color: rgba(255, 255, 255, 0.2);  
+    color: #ffffff;  
+}  
+
+.navbar-nav .nav-link.active {  
+    background-color: rgba(255, 255, 255, 0.3);  
+    border-radius: 5px;  
+}  
+
+.navbar-nav .nav-link.disabled {  
+    color: rgba(255, 255, 255, 0.5);  
+}  
+
+
+.navbar-brand.navactive {
+font-family: 'Segoe Script', cursive; /* Apply the desired font */
+font-size: 28px; /* Adjust font size as needed */
+color: #f8520f; /* Font color */
+text-transform: uppercase; /* Uppercase the text if desired */
+letter-spacing: 2px; /* Spacing between letters */
+font-weight: bold; /* Make the text bold */
+}
+
+.basket-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;  
+    z-index: 1000; 
+}
+
+.basket-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B0000; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease;
+    width: 60px;
+    height: 60px;
+}
+
+.basket-btn i {
+    font-size: 24px;
+}
+
+.basket-btn:hover {
+    background-color: #A52A2A; 
+}
+
+.badge {
+position: absolute; /* Positioning relative to the basket button */
+top: 0; /* Aligns to the top */
+left: 0; /* Aligns to the right */
+background-color: #fff; /* White background for contrast */
+color: #8B0000; /* Same as basket button color for consistency */
+border-radius: 90%; /* Circular shape */
+padding: 5px 6px; /* Padding for size */
+font-weight: bold; /* Bold text */
+font-size: 8px; /* Adjust font size */
+border: 2px solid #8B0000; /* Border matching the button color */
+}
+
+.add { 
+text-align: center; 
+background-color: #f8520f; /* Orange background for contrast */
+color: #fff; /* White text for readability */
+border-radius: 20px; /* Rounded corners */
+padding: 5px 10px; /* Vertical and horizontal padding for size */
+font-weight: bold; /* Bold text */
+font-size: 15px; /* Adjust font size */
+border: 2px solid transparent; /* Use 'transparent' instead of '#0000' for clarity */
+cursor: pointer; /* Changes cursor to pointer on hover */
+transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Optional: Add hover effect */
+.add:hover {
+background-color: #d84100; /* Darker shade on hover */
+}
